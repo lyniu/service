@@ -12,10 +12,11 @@ public class TestService {
 
 
     @Test
-    public void testhelloworld(){
+    public void testsayHi(){
 
-        String expactReturnValue = "hello"; // You should put the expect String type value here.
+        String expactReturnValue = "hi, Tom! welcome to ServiceStage"; // You should put the expect String type value here.
 
+        // You should put the parameter here,in such footprint: csedemoImpl.sayHi（String name）
         String returnValue = serviceDelegate.helloworld("hello");
 
         assertEquals(expactReturnValue, returnValue);
