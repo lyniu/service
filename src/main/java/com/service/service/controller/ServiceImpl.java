@@ -4,7 +4,7 @@ package com.service.service.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import io.servicecomb.provider.pojo.RpcSchema;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.CsePojoDemoCodegen", date = "2017-11-24T02:02:45.554Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.CsePojoDemoCodegen", date = "2017-11-24T02:22:36.670Z")
 
 @RpcSchema(schemaId = "service")
 public class ServiceImpl implements Service{
