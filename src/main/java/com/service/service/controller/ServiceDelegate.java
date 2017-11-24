@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class ServiceDelegate implements Service {
 
-    public String sayHi(String name){
+    public String helloworld(String name){
 
         // Do Some Magic Here!
-        return "hi, " + name + "! welcome to ServiceStage";
-    };
+        return name;
+    }
 }
