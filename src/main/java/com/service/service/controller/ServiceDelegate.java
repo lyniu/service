@@ -10,5 +10,5 @@ public class ServiceDelegate implements Service {
 
         // Do Some Magic Here!
         return "hi, " + name + "! welcome to ServiceStage";
-    }
+    };
 }
